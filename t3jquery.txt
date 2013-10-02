@@ -1,0 +1,1 @@
+script=Resources/Public/Scripts/qtip-2.0.1/jquery.qtip.js,Resources/Public/Scripts/fullcalendar-1.6.4/fullcalendar.js,Resources/Public/Scripts/fullcalendar-1.6.4/gcal.js

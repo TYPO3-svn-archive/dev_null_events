@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_devnullevents_pi1&quot;</description>
+		<generator>LFEditor</generator>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.flexform.sheet_EventList">Event List</label>
+			<label index="tt_content.flexform.sheet_EventText">Text</label>
+			<label index="tt_content.flexform.sheet_FullCal">Calendar</label>
+			<label index="tt_content.flexform.sheet_Single">Single view</label>
+			<label index="tt_content.flexform.sheet_config">Config</label>
+			<label index="tt_content.flexform.sheet_general">General</label>
+			<label index="tt_content.list_type_pi1">dev/null Calendar</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode">Events with category</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode.0">Show all</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode.1">Selected categories</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatList">List of categories</label>
+			<label index="tx_devnullevents_p1.flexform.calendar_pid">Calendar view</label>
+			<label index="tx_devnullevents_p1.flexform.qTips">Enable qTips</label>
+			<label index="tx_devnullevents_p1.flexform.displayType">Display type</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.0">Calendar view</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.1">List of events</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.2">Single View Page</label>
+			<label index="tx_devnullevents_p1.flexform.maxEvents">Max. number of events</label>
+			<label index="tx_devnullevents_p1.flexform.singleView_pid">Single View Page</label>
+			<label index="tx_devnullevents_p1.flexform.textMoreEvents">Textblock &quot;More Events&quot;</label>
+			<label index="tx_devnullevents_p1.flexform.textNoEvents">Textblock &quot;No Events&quot;</label>
+			<label index="tx_devnullevents_p1.flexform.textNoMoreEvents">Textblock &quot;No more Events&quot;</label>
+		</languageKey>
+		<languageKey index="af"></languageKey>
+		<languageKey index="ar"></languageKey>
+		<languageKey index="bs"></languageKey>
+		<languageKey index="bg"></languageKey>
+		<languageKey index="ca"></languageKey>
+		<languageKey index="ch"></languageKey>
+		<languageKey index="cs"></languageKey>
+		<languageKey index="da"></languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.flexform.sheet_EventList">Event List</label>
+			<label index="tt_content.flexform.sheet_EventText">Textbausteine</label>
+			<label index="tt_content.flexform.sheet_FullCal">Kalender</label>
+			<label index="tt_content.flexform.sheet_Single">Einzelansicht</label>
+			<label index="tt_content.flexform.sheet_config">Konfiguration</label>
+			<label index="tt_content.flexform.sheet_general">Allgemein</label>
+			<label index="tt_content.list_type_pi1">dev/null Kalender</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode">Termine mit Kategorie</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode.0">Zeige alle</label>
+			<label index="tx_devnullevents_p1.flexform.eventsCatMode.1">Gewählte Kategorien</label>
+			<label index="tx_devnullevents_p1.flexform.calendar_pid">Kalenderansicht</label>
+			<label index="tx_devnullevents_p1.flexform.qTips">Aktiviere qTips</label>
+			<label index="tx_devnullevents_p1.flexform.displayType">Anzeigemodus</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.0">Kalenderansicht</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.1">Liste der Termine</label>
+			<label index="tx_devnullevents_p1.flexform.displayType.2">Termin Detailansicht</label>
+			<label index="tx_devnullevents_p1.flexform.maxEvents">Max. Anzahl von Events</label>
+			<label index="tx_devnullevents_p1.flexform.singleView_pid">Seite für Detailansicht</label>
+			<label index="tx_devnullevents_p1.flexform.textMoreEvents">Textbaustein &quot;Mehr Termine&quot;</label>
+			<label index="tx_devnullevents_p1.flexform.textNoEvents">Textbaustein &quot;Keine Termine&quot;</label>
+			<label index="tx_devnullevents_p1.flexform.textNoMoreEvents">Textbaustein &quot;Keine weiteren Termine&quot;</label>
+		</languageKey>
+		<languageKey index="el"></languageKey>
+		<languageKey index="eo"></languageKey>
+		<languageKey index="es"></languageKey>
+		<languageKey index="et"></languageKey>
+		<languageKey index="eu"></languageKey>
+		<languageKey index="fa"></languageKey>
+		<languageKey index="fi"></languageKey>
+		<languageKey index="fo"></languageKey>
+		<languageKey index="fr"></languageKey>
+		<languageKey index="fr_CA"></languageKey>
+		<languageKey index="gl"></languageKey>
+		<languageKey index="he"></languageKey>
+		<languageKey index="hi"></languageKey>
+		<languageKey index="hr"></languageKey>
+		<languageKey index="hu"></languageKey>
+		<languageKey index="is"></languageKey>
+		<languageKey index="it"></languageKey>
+		<languageKey index="ja"></languageKey>
+		<languageKey index="ka"></languageKey>
+		<languageKey index="kl"></languageKey>
+		<languageKey index="km"></languageKey>
+		<languageKey index="ko"></languageKey>
+		<languageKey index="lt"></languageKey>
+		<languageKey index="lv"></languageKey>
+		<languageKey index="ms"></languageKey>
+		<languageKey index="nl"></languageKey>
+		<languageKey index="no"></languageKey>
+		<languageKey index="pl"></languageKey>
+		<languageKey index="pt"></languageKey>
+		<languageKey index="pt_BR"></languageKey>
+		<languageKey index="ro"></languageKey>
+		<languageKey index="ru"></languageKey>
+		<languageKey index="sk"></languageKey>
+		<languageKey index="sl"></languageKey>
+		<languageKey index="sq"></languageKey>
+		<languageKey index="sr"></languageKey>
+		<languageKey index="sv"></languageKey>
+		<languageKey index="th"></languageKey>
+		<languageKey index="tr"></languageKey>
+		<languageKey index="uk"></languageKey>
+		<languageKey index="vi"></languageKey>
+		<languageKey index="zh"></languageKey>
+	</data>
+</T3locallang>

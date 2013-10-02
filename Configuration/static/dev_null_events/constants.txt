@@ -1,0 +1,74 @@
+config.dev_null_events {
+
+    # cat=dev-null-events: events/basic/10; type=int; label=Storage folder of events
+	storagePid = 0
+
+	# cat=dev-null-events: expert/basic/10; type=string; label=page.typeNum for json feed
+	typeNum = 1984
+}
+
+config.dev_null_events.eventList {
+
+    # cat=dev-null-events: event-list/basic/10; type=int; label=Max. number of events in list view
+	maxEvents = 3
+
+    # cat=dev-null-events: event-list/basic/20; type=int; label=tx_devnullevents_text record with text for no events found
+	eventTextNoEvents = 0
+
+	# cat=dev-null-events: event-list/basic/25; type=int; label=tx_devnullevents_text record with text for no more events available
+	eventTextNoMoreEvents = 0
+
+	# cat=dev-null-events: event-list/basic/30; type=int; label=tx_devnullevents_text record with text for more events available
+	eventTextMoreEvents = 0
+
+    # cat=dev-null-events: event-list/basic/40; type=int; label=pid of event single view page
+	pidSingleView = 0
+
+}
+
+plugin.dev_null_events.resources.jquery {
+	# cat=dev-null-events: jquery/basic/10; type=bool; label=include jquery from extension
+	includeLib = 0
+
+	# cat=dev-null-events: jquery/basic/20; type=string; label=path to jquery.js
+	jqueryLib = 
+}
+
+plugin.dev_null_events.resources.events {
+	# cat=dev-null-events: events/basic/20; type=string; label=path to dev-null-events.css
+	cssScreen = typo3conf/ext/dev_null_events/Resources/Public/css/dev-null-events.css
+
+	# cat=dev-null-events: events/basic/30; type=string; label=path to dev-null-events.print.css
+	cssPrint = 
+
+	# cat=dev-null-events: events/basic/40; type=string; label=path to dev-null-events.custom.css
+	cssCustom = 
+}
+
+plugin.dev_null_events.resources.fullcalendar {
+	# cat=dev-null-events: fullcalendar/basic/10; type=string; label=path to fullcalendar.js
+	jquery = typo3conf/ext/dev_null_events/Resources/Public/Scripts/fullcalendar-1.6.4/fullcalendar.js
+	
+	# cat=dev-null-events: fullcalendar/basic/20; type=string; label=path to fullcalendar.css
+	cssScreen = typo3conf/ext/dev_null_events/Resources/Public/Scripts/fullcalendar-1.6.4/fullcalendar.css
+	
+	# cat=dev-null-events: fullcalendar/basic/30; type=string; label=path to fullcalendar.print.css
+	cssPrint = typo3conf/ext/dev_null_events/Resources/Public/Scripts/fullcalendar-1.6.4/fullcalendar.print.css
+	
+	# cat=dev-null-events: fullcalendar/basic/40; type=string; label=path to fullcalendar.custom.css
+	cssCustom = typo3conf/ext/dev_null_events/Resources/Public/css/fullcalendar-yaml4.css
+}
+
+plugin.dev_null_events.resources.qtip {
+	# cat=dev-null-events: qtip/basic/10; type=string; label=path to jquery.qtip.js
+	jquery = typo3conf/ext/dev_null_events/Resources/Public/Scripts/qtip-2.0.1/jquery.qtip.js
+
+	# cat=dev-null-events: qtip/basic/20; type=string; label=path to jquery.qtip.css
+	cssScreen = typo3conf/ext/dev_null_events/Resources/Public/Scripts/qtip-2.0.1/jquery.qtip.css
+
+	# cat=dev-null-events: qtip/basic/30; type=string; label=path to jquery.qtip.print.css
+	cssPrint = 
+
+	# cat=dev-null-events: qtip/basic/40; type=string; label=path to qtip.custom.css
+	cssCustom = 
+}

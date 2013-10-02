@@ -1,0 +1,103 @@
+
+plugin.tx_devnullevents_pi1 {
+	resources {
+		events {
+			cssScreen = {$plugin.dev_null_events.resources.events.cssScreen}
+			cssPrint  = {$plugin.dev_null_events.resources.events.cssPrint}
+			cssCustom = {$plugin.dev_null_events.resources.events.cssCustom}
+		}
+		fullcalendar {
+			jquery    = {$plugin.dev_null_events.resources.fullcalendar.jquery}
+			cssScreen = {$plugin.dev_null_events.resources.fullcalendar.cssScreen}
+			cssPrint  = {$plugin.dev_null_events.resources.fullcalendar.cssPrint}
+			cssCustom = {$plugin.dev_null_events.resources.fullcalendar.cssCustom}
+		}
+		qtip {
+			jquery    = {$plugin.dev_null_events.resources.qtip.jquery}
+			cssScreen = {$plugin.dev_null_events.resources.qtip.cssScreen}
+			cssPrint  = {$plugin.dev_null_events.resources.qtip.cssPrint}
+			cssCustom = {$plugin.dev_null_events.resources.qtip.cssCustom}
+		}
+	}
+	calendar {
+		template = EXT:dev_null_events/Resources/Private/Templates/fullcalendar.html
+	}
+	eventList {
+		template 				= EXT:dev_null_events/Resources/Private/Templates/eventlist.html
+		minDate 				= today
+		maxEvents 				= {$config.dev_null_events.eventList.maxEvents}
+		pidSingleView 			= {$config.dev_null_events.eventList.pidSingleView}
+		eventTextNoEvents 		= {$config.dev_null_events.eventList.eventTextNoEvents}
+		eventTextNoMoreEvents	= {$config.dev_null_events.eventList.eventTextNoMoreEvents}
+		eventTextMoreEvents		= {$config.dev_null_events.eventList.eventTextMoreEvents}
+		
+		eventContent_stdWrap {
+			wrap = <div class="devnull-event-content">|</div>
+			trim = 1
+			required = 1
+		}
+		scheduleContent_stdWrap {
+			wrap = <div class="devnull-schedule-content">|</div>
+			trim = 1
+			required = 1
+		}
+	}
+	eventView {
+		template = EXT:dev_null_events/Resources/Private/Templates/eventview.html
+		pidCalendar = 0
+		eventContent_stdWrap {
+			wrap = <div class="devnull-event-content">|</div>
+			trim = 1
+			required = 1
+		}
+		eventText_stdWrap {
+			wrap = <div class="devnull-event-content">|</div>
+			trim = 1
+			required = 0
+			parseFunc < lib.parseFunc_RTE
+		}
+		scheduleContent_stdWrap {
+			wrap = <div class="devnull-schedule-content">|</div>
+			trim = 1
+			required = 1
+		}
+	}
+	storagePid = {$config.dev_null_events.storagePid}
+	jsonTypeNum = {$config.dev_null_events.typeNum}
+}
+
+includeLibs.tx_devnullevents_json = EXT:dev_null_events/json/class.tx_devnullevents_json.php
+tx_devnullevents_json = PAGE
+tx_devnullevents_json {
+	typeNum                   = {$config.dev_null_events.typeNum}
+#	10 = USER_INT
+#	10 {
+#		userFunc = tx_devnullevents_json->main
+#	}
+	config {
+		disableAllHeaderCode = 1
+		additionalHeaders    = Content-type: text/plain
+		admPanel             = 0
+		disablePrefixComment = 1
+		index_enable         = 0	## disable indexed search
+	}
+	10 = CONTENT
+	10 {
+		table = tt_content
+		select {
+			pidInList = this
+			uidInList.data = GP:tx_devnullevents|cal
+			uidInList.intval = 1
+			max = 1
+		}
+		renderObj = COA
+		renderObj {
+			10 < plugin.tx_devnullevents_pi1
+			10 = USER_INT
+			10 {
+				userFunc = tx_devnullevents_json->main
+			}
+		}
+	}
+}
+

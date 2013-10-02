@@ -1,0 +1,108 @@
+
+/* Event list - common settings */
+
+.devnull-eventlist-entry {
+	margin-bottom: 1.5em;
+}
+
+.devnull-eventlist-entry .devnull-eventlist-caption {
+	float: left;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.devnull-eventlist-entry .devnull-eventlist-title {
+	margin-left: 120px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.devnull-eventlist-entry ul.devnull-schedule-list {
+	margin-bottom: 0.5em;
+}
+
+.devnull-eventlist-entry .devnull-eventlist-more {
+	margin-left: 120px;
+}
+
+.devnull-event-content ul.devnull-organizer-list,
+.devnull-event-content ul.devnull-location-list,
+.devnull-event-content ul.devnull-instr-list,
+.devnull-event-content ul.devnull-schedule-list {
+	margin-bottom: 0;
+}
+
+/* Event view - event section */
+
+div.devnull-event-content {
+	margin-bottom: 0.5em;
+}
+
+/* Event view - organizer section */
+
+ul.devnull-organizer-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.devnull-organizer-list li.devnull-organizer-caption {
+	margin-left: 0;
+	float: left;
+}
+
+ul.devnull-organizer-list li.devnull-organizer-entry {
+	margin-left: 120px;
+}
+
+/* Event view - location section */
+
+ul.devnull-location-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.devnull-location-list li.devnull-location-caption {
+	margin-left: 0;
+	float: left;
+}
+
+ul.devnull-location-list li.devnull-location-entry {
+	margin-left: 120px;
+}
+
+/* Event view - instructor section */
+
+ul.devnull-instr-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.devnull-instr-list li.devnull-instr-caption {
+	margin-left: 0;
+	float: left;
+}
+
+ul.devnull-instr-list li.devnull-instr-entry {
+	margin-left: 120px;
+}
+
+/* Event view - schedule section */
+
+ul.devnull-schedule-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.devnull-schedule-list li.devnull-schedule-caption {
+	margin-left: 0;
+	float: left;
+}
+
+ul.devnull-schedule-list li.devnull-schedule-entry {
+	margin-left: 120px;
+}
+
+li.devnull-schedule-entry div.devnull-schedule-content {
+	margin-bottom: 0.5em;
+}
+

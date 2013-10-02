@@ -1,0 +1,65 @@
+<script type="text/javascript">
+<!-- ###HEADERSCRIPT### begin -->
+
+	$(document).ready(function() {
+	
+		$('#calendar').fullCalendar({
+			aspectRatio: 1.1,
+			dayNamesShort: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
+			monthNames: ['J&auml;nner', 'Februar', 'M&auml;rz', 'April', 'Mai', 'Juni', 'Juli',
+				'August', 'September', 'Oktober', 'November', 'Dezember'],
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month'
+			},
+			buttonText: {
+				today:    'Heute',
+				month:    'Monat',
+			},
+			editable: false,
+			events: {
+				url:        '###JSON_FEED_URL###',
+				type:       'GET',
+				color:      'blue',   // a non-ajax option
+				textColor:  'white',  // a non-ajax option
+				startParam: 'tx_devnullevents[start]',
+				endParam:   'tx_devnullevents[end]'
+			},
+			eventRender: function(event, element) {
+				$(element).qtip({
+					content: {
+						text: event.qtipDescr,
+						title: {
+							text: event.title
+						}
+					},
+					position: {
+						at: 'left center',
+						my: 'right top'
+					},
+					show: 'mouseover'
+				});
+			},
+			axisFormat: 'H:mm',
+			minTime: 6,
+			maxTime: 22,
+			firstHour: 8,
+			firstDay: 1,
+			weekMode: 'variable',
+			timeFormat: 'H:mm' // uppercase H for 24-hour clock
+		});
+	});
+<!-- ###HEADERSCRIPT### end -->
+</script>
+
+<style type="text/css">
+<!-- ###HEADERSTYLE### begin -->
+<!-- ###HEADERSTYLE### end -->
+
+</style>
+<!-- ###BODYTEXT### begin -->
+		<div id="calendar">
+		<noscript><span style="color: red">F&uuml;r den Kalender wird Javascript ben&ouml;tigt</span></noscript>
+		</div>
+<!-- ###BODYTEXT### end -->

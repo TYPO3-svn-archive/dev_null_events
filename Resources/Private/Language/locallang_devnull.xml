@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'templatedisplay'</description>
+		<generator>LFEditor</generator>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="div.event">Event</label>
+			<label index="div.logistic">Logistics</label>
+			<label index="div.schedule">Schedule</label>
+			<label index="div.style">Style</label>
+			<label index="palette.colors">Colors</label>
+			<label index="palette.schedule">Colors</label>
+			<label index="tx_devnullevents.colorbkg">Color Background</label>
+			<label index="tx_devnullevents.colortxt">Color text</label>
+			<label index="tx_devnullevents.instructor">Instructor</label>
+			<label index="tx_devnullevents.location">Location</label>
+			<label index="tx_devnullevents.organizer">Organizer</label>
+			<label index="tx_devnullevents_cat">Calendar Category</label>
+			<label index="tx_devnullevents_cat.description">Description</label>
+			<label index="tx_devnullevents_cat.title">Title</label>
+			<label index="tx_devnullevents_event">Calendar Event</label>
+			<label index="tx_devnullevents_event.cat">Categories</label>
+			<label index="tx_devnullevents_event.descr_RTE">Event description</label>
+			<label index="tx_devnullevents_event.label">Label</label>
+			<label index="tx_devnullevents_event.schedules">Schedules</label>
+			<label index="tx_devnullevents_event.teaser">Teaser</label>
+			<label index="tx_devnullevents_event.title">Title</label>
+			<label index="tx_devnullevents_schedule">Calendar Schedule</label>
+			<label index="tx_devnullevents_schedule.descr_RTE">Schedule description</label>
+			<label index="tx_devnullevents_schedule.fullday">Full day event</label>
+			<label index="tx_devnullevents_schedule.sh_enddate">End date</label>
+			<label index="tx_devnullevents_schedule.sh_endtime">End time</label>
+			<label index="tx_devnullevents_schedule.sh_startdate">Start date</label>
+			<label index="tx_devnullevents_schedule.sh_starttime">Start time</label>
+			<label index="tx_devnullevents_schedule.title">Title</label>
+			<label index="tx_devnullevents_text">Calendar Event default text</label>
+			<label index="tx_devnullevents_text.descr_RTE">Schedule description</label>
+			<label index="tx_devnullevents_text.title">Title</label>
+		</languageKey>
+		<languageKey index="af"></languageKey>
+		<languageKey index="ar"></languageKey>
+		<languageKey index="bs"></languageKey>
+		<languageKey index="bg"></languageKey>
+		<languageKey index="ca"></languageKey>
+		<languageKey index="ch"></languageKey>
+		<languageKey index="cs"></languageKey>
+		<languageKey index="da"></languageKey>
+		<languageKey index="de">
+			<label index="tx_devnullevents.instructor">Tauchlehrer</label>
+			<label index="tx_devnullevents.location">Veranstaltungsort</label>
+			<label index="tx_devnullevents.organizer">Veranstalter</label>
+			<label index="tx_devnullevents.colorbkg">Hintergrundfarbe</label>
+			<label index="tx_devnullevents.colortxt">Textfarbe</label>
+			<label index="tx_devnullevents_cat">Kalender Kategorie</label>
+			<label index="tx_devnullevents_cat.description">Beschreibung</label>
+			<label index="tx_devnullevents_cat.title">Titel</label>
+			<label index="tx_devnullevents_event">Kalender Event</label>
+			<label index="tx_devnullevents_event.cat">Kategorien</label>
+			<label index="tx_devnullevents_event.descr">Beschreibung</label>
+			<label index="tx_devnullevents_event.descr_RTE">Beschreibung</label>
+			<label index="tx_devnullevents_event.schedules">Termine</label>
+			<label index="tx_devnullevents_event.teaser">Teaser</label>
+			<label index="tx_devnullevents_event.title">Titel</label>
+			<label index="tx_devnullevents_schedule">Kalender Event Termin</label>
+			<label index="tx_devnullevents_schedule.descr">Beschreibung</label>
+			<label index="tx_devnullevents_schedule.descr_RTE">Terminbeschreibung</label>
+			<label index="tx_devnullevents_schedule.fullday">Ganztägig</label>
+			<label index="tx_devnullevents_schedule.sh_enddate">Ende Datum</label>
+			<label index="tx_devnullevents_schedule.sh_endtime">Ende Zeit</label>
+			<label index="tx_devnullevents_schedule.sh_startdate">Start Datum</label>
+			<label index="tx_devnullevents_schedule.sh_starttime">Start Zeit</label>
+			<label index="tx_devnullevents_schedule.title">Titel</label>
+			<label index="tx_devnullevents_text">Kalender Event Textbaustein</label>
+			<label index="tx_devnullevents_text.descr_RTE">Terminbeschreibung</label>
+			<label index="tx_devnullevents_text.title">Titel</label>
+		</languageKey>
+		<languageKey index="el"></languageKey>
+		<languageKey index="eo"></languageKey>
+		<languageKey index="es"></languageKey>
+		<languageKey index="et"></languageKey>
+		<languageKey index="eu"></languageKey>
+		<languageKey index="fa"></languageKey>
+		<languageKey index="fi"></languageKey>
+		<languageKey index="fo"></languageKey>
+		<languageKey index="fr"></languageKey>
+		<languageKey index="fr_CA"></languageKey>
+		<languageKey index="gl"></languageKey>
+		<languageKey index="he"></languageKey>
+		<languageKey index="hi"></languageKey>
+		<languageKey index="hr"></languageKey>
+		<languageKey index="hu"></languageKey>
+		<languageKey index="is"></languageKey>
+		<languageKey index="it"></languageKey>
+		<languageKey index="ja"></languageKey>
+		<languageKey index="ka"></languageKey>
+		<languageKey index="kl"></languageKey>
+		<languageKey index="km"></languageKey>
+		<languageKey index="ko"></languageKey>
+		<languageKey index="lt"></languageKey>
+		<languageKey index="lv"></languageKey>
+		<languageKey index="ms"></languageKey>
+		<languageKey index="nl"></languageKey>
+		<languageKey index="no"></languageKey>
+		<languageKey index="pl"></languageKey>
+		<languageKey index="pt"></languageKey>
+		<languageKey index="pt_BR"></languageKey>
+		<languageKey index="ro"></languageKey>
+		<languageKey index="ru"></languageKey>
+		<languageKey index="sk"></languageKey>
+		<languageKey index="sl"></languageKey>
+		<languageKey index="sq"></languageKey>
+		<languageKey index="sr"></languageKey>
+		<languageKey index="sv"></languageKey>
+		<languageKey index="th"></languageKey>
+		<languageKey index="tr"></languageKey>
+		<languageKey index="uk"></languageKey>
+		<languageKey index="vi"></languageKey>
+		<languageKey index="zh"></languageKey>
+	</data>
+</T3locallang>
